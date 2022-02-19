@@ -9,6 +9,9 @@ import com.sellermanager.br.service.VendedorService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
+
+import static org.springframework.http.HttpStatus.NO_CONTENT;
 
 @RequiredArgsConstructor
 @Service
@@ -34,6 +37,6 @@ public class VendedorServiceImpl implements VendedorService {
                     .nome(vendedor.getNome())
                     .dataInclusao(vendedor.getDataInclusao())
                     .estados(atuacao.get().getEstados()).build();
-        }).get();
+        }).orElseThrow(() -> new ResponseStatusException(NO_CONTENT));
     }
 }
