@@ -1,17 +1,17 @@
 package com.sellermanager.br.model.dto;
 
-import com.sellermanager.br.model.Atuacao;
 import lombok.Getter;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 @Getter
 public class AtuacaoIn {
 
+    @NotBlank
     private String regiao;
-    private List<String> estados;
 
-    public Atuacao toModel() {
-        return new Atuacao(regiao, estados);
-    }
+    @NotEmpty
+    private List<String> estados;
 }

@@ -1,7 +1,7 @@
 package com.sellermanager.br.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,8 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDate;
 
-@Getter
-@AllArgsConstructor
+@Data
+@NoArgsConstructor
 @Entity
 public class Vendedor {
 
@@ -23,8 +23,4 @@ public class Vendedor {
     private String cidade;
     private String estado;
     private String regiao;
-
-    @Deprecated
-    public Vendedor() {
-    }
 }

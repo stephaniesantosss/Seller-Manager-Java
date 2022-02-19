@@ -1,21 +1,40 @@
 package com.sellermanager.br.model.dto;
 
-import com.sellermanager.br.model.Vendedor;
 import lombok.Getter;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Getter
 public class VendedorIn {
 
+    private LocalDate dataInclusao = LocalDate.now();
+
+    @NotBlank
     private String nome;
+
+    @NotBlank
     private String telefone;
+
+    @NotNull
     private int idade;
+
+    @NotBlank
     private String cidade;
+
+    @NotBlank
     private String estado;
+
+    @NotBlank
     private String regiao;
 
-    public Vendedor toModel() {
-        return new Vendedor(0, LocalDate.now(), nome, telefone, idade, cidade, estado, regiao);
+    public VendedorIn(String nome, String telefone, int idade, String cidade, String estado, String regiao) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.idade = idade;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.regiao = regiao;
     }
 }
