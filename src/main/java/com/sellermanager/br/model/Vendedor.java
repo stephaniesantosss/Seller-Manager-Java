@@ -23,4 +23,8 @@ public class Vendedor {
     private String cidade;
     private String estado;
     private String regiao;
+
+    @Deprecated
+    public Vendedor() {
+    }
 }
