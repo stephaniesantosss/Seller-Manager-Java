@@ -1,4 +1,4 @@
-package com.sellermanager.br.Repository;
+package com.sellermanager.br.repository;
 
 import com.sellermanager.br.model.Vendedor;
 import org.springframework.data.jpa.repository.JpaRepository;

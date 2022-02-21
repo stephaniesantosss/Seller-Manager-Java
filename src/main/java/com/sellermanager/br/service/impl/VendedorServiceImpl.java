@@ -1,7 +1,7 @@
 package com.sellermanager.br.service.impl;
 
-import com.sellermanager.br.Repository.AtuacaoRepository;
-import com.sellermanager.br.Repository.VendedorRepository;
+import com.sellermanager.br.repository.AtuacaoRepository;
+import com.sellermanager.br.repository.VendedorRepository;
 import com.sellermanager.br.model.Vendedor;
 import com.sellermanager.br.model.dto.VendedorIn;
 import com.sellermanager.br.model.dto.VendedorOut;

@@ -1,6 +1,6 @@
 package com.sellermanager.br.service.impl;
 
-import com.sellermanager.br.Repository.AtuacaoRepository;
+import com.sellermanager.br.repository.AtuacaoRepository;
 import com.sellermanager.br.model.Atuacao;
 import com.sellermanager.br.model.dto.AtuacaoIn;
 import com.sellermanager.br.service.AtuacaoService;
