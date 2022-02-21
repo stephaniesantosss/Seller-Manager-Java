@@ -1,10 +1,10 @@
-package com.sellermanager.br.controller.vendedor;
+package com.sellermanager.br.entrypoint.controller;
 
-import com.sellermanager.br.controller.api.VendedorControllerAPi;
-import com.sellermanager.br.model.dto.VendedorIn;
-import com.sellermanager.br.model.dto.VendedorOut;
-import com.sellermanager.br.model.dto.VendedorOutList;
-import com.sellermanager.br.service.VendedorService;
+import com.sellermanager.br.entrypoint.controller.api.VendedorControllerAPi;
+import com.sellermanager.br.core.model.dto.VendedorIn;
+import com.sellermanager.br.core.model.dto.VendedorOut;
+import com.sellermanager.br.core.model.dto.VendedorOutList;
+import com.sellermanager.br.core.service.VendedorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;

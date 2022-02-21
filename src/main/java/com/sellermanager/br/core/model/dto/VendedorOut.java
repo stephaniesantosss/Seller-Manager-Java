@@ -1,4 +1,4 @@
-package com.sellermanager.br.model.dto;
+package com.sellermanager.br.core.model.dto;
 
 import lombok.Builder;
 import lombok.Getter;

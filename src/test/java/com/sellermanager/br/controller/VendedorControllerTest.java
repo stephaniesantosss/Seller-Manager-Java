@@ -1,10 +1,10 @@
 package com.sellermanager.br.controller;
 
-import com.sellermanager.br.controller.vendedor.VendedorController;
-import com.sellermanager.br.model.dto.VendedorIn;
-import com.sellermanager.br.model.dto.VendedorOut;
-import com.sellermanager.br.model.dto.VendedorOutList;
-import com.sellermanager.br.service.VendedorService;
+import com.sellermanager.br.entrypoint.controller.VendedorController;
+import com.sellermanager.br.core.model.dto.VendedorIn;
+import com.sellermanager.br.core.model.dto.VendedorOut;
+import com.sellermanager.br.core.model.dto.VendedorOutList;
+import com.sellermanager.br.core.service.VendedorService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

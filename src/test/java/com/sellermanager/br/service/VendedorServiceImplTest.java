@@ -1,11 +1,11 @@
 package com.sellermanager.br.service;
 
-import com.sellermanager.br.model.Atuacao;
-import com.sellermanager.br.model.Vendedor;
-import com.sellermanager.br.model.dto.VendedorIn;
-import com.sellermanager.br.repository.AtuacaoRepository;
-import com.sellermanager.br.repository.VendedorRepository;
-import com.sellermanager.br.service.impl.VendedorServiceImpl;
+import com.sellermanager.br.core.model.model.Atuacao;
+import com.sellermanager.br.core.model.model.Vendedor;
+import com.sellermanager.br.core.model.dto.VendedorIn;
+import com.sellermanager.br.dataprovider.repository.AtuacaoRepository;
+import com.sellermanager.br.dataprovider.repository.VendedorRepository;
+import com.sellermanager.br.core.service.impl.VendedorServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

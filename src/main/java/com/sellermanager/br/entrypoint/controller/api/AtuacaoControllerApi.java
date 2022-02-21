@@ -1,6 +1,6 @@
-package com.sellermanager.br.controller.api;
+package com.sellermanager.br.entrypoint.controller.api;
 
-import com.sellermanager.br.model.dto.AtuacaoIn;
+import com.sellermanager.br.core.model.dto.AtuacaoIn;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

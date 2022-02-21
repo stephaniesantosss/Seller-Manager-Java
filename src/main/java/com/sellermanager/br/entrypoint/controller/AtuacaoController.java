@@ -1,8 +1,8 @@
-package com.sellermanager.br.controller.atuacao;
+package com.sellermanager.br.entrypoint.controller;
 
-import com.sellermanager.br.controller.api.AtuacaoControllerApi;
-import com.sellermanager.br.model.dto.AtuacaoIn;
-import com.sellermanager.br.service.AtuacaoService;
+import com.sellermanager.br.entrypoint.controller.api.AtuacaoControllerApi;
+import com.sellermanager.br.core.model.dto.AtuacaoIn;
+import com.sellermanager.br.core.service.AtuacaoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;

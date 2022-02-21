@@ -1,9 +1,9 @@
-package com.sellermanager.br.service.impl;
+package com.sellermanager.br.core.service.impl;
 
-import com.sellermanager.br.repository.AtuacaoRepository;
-import com.sellermanager.br.model.Atuacao;
-import com.sellermanager.br.model.dto.AtuacaoIn;
-import com.sellermanager.br.service.AtuacaoService;
+import com.sellermanager.br.dataprovider.repository.AtuacaoRepository;
+import com.sellermanager.br.core.model.model.Atuacao;
+import com.sellermanager.br.core.model.dto.AtuacaoIn;
+import com.sellermanager.br.core.service.AtuacaoService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

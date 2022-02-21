@@ -1,8 +1,8 @@
 package com.sellermanager.br.controller;
 
-import com.sellermanager.br.controller.atuacao.AtuacaoController;
-import com.sellermanager.br.model.dto.AtuacaoIn;
-import com.sellermanager.br.service.AtuacaoService;
+import com.sellermanager.br.entrypoint.controller.AtuacaoController;
+import com.sellermanager.br.core.model.dto.AtuacaoIn;
+import com.sellermanager.br.core.service.AtuacaoService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

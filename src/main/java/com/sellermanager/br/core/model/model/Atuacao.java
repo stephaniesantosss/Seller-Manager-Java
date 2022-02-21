@@ -1,4 +1,4 @@
-package com.sellermanager.br.model;
+package com.sellermanager.br.core.model.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

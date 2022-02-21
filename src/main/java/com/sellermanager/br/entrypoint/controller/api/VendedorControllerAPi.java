@@ -1,8 +1,8 @@
-package com.sellermanager.br.controller.api;
+package com.sellermanager.br.entrypoint.controller.api;
 
-import com.sellermanager.br.model.dto.VendedorIn;
-import com.sellermanager.br.model.dto.VendedorOut;
-import com.sellermanager.br.model.dto.VendedorOutList;
+import com.sellermanager.br.core.model.dto.VendedorIn;
+import com.sellermanager.br.core.model.dto.VendedorOut;
+import com.sellermanager.br.core.model.dto.VendedorOutList;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
