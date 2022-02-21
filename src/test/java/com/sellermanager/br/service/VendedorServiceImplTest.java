@@ -57,7 +57,6 @@ public class VendedorServiceImplTest {
     @Test
     void deveCadastrarVendedorComSucesso() {
         when(modelMapper.map(vendedorIn, Vendedor.class)).thenReturn(vendedor);
-        vendedorService.cadastraVendedor(vendedorIn);
 
         assertDoesNotThrow(() -> vendedorService.cadastraVendedor(vendedorIn));
     }
